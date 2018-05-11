@@ -397,7 +397,6 @@ openFile("Datasets/Diabetes/diabetes.csv", ',', {'Pregnancies': CONTINUOUS_ATT, 
 #openFile("Datasets/Ionosphere/ionosphere_with_names.csv", ',', {'id8': CONTINUOUS_ATT, 'id9': CONTINUOUS_ATT, 'id6': CONTINUOUS_ATT, 'id7': CONTINUOUS_ATT, 'id4': CONTINUOUS_ATT, 'id5': CONTINUOUS_ATT, 'id2': CONTINUOUS_ATT, 'id3': CONTINUOUS_ATT, 'id1': CONTINUOUS_ATT, 'id10': CONTINUOUS_ATT, 'id11': CONTINUOUS_ATT, 'id12': CONTINUOUS_ATT, 'id13': CONTINUOUS_ATT, 'id14': CONTINUOUS_ATT, 'id15': CONTINUOUS_ATT, 'id16': CONTINUOUS_ATT, 'id17': CONTINUOUS_ATT, 'id18': CONTINUOUS_ATT, 'id19': CONTINUOUS_ATT, 'id34': CONTINUOUS_ATT, 'id32': CONTINUOUS_ATT, 'id33': CONTINUOUS_ATT, 'id30': CONTINUOUS_ATT, 'id31': CONTINUOUS_ATT, 'id29': CONTINUOUS_ATT, 'id28': CONTINUOUS_ATT, 'id21': CONTINUOUS_ATT, 'id20': CONTINUOUS_ATT, 'id23': CONTINUOUS_ATT, 'id22': CONTINUOUS_ATT, 'id25': CONTINUOUS_ATT, 'id24': CONTINUOUS_ATT, 'id27': CONTINUOUS_ATT, 'id26': CONTINUOUS_ATT, 'Class': DISCRETE_ATT}, {'N': 'b', 'P': 'g'})
 #openFile("Datasets/Wine/wine_with_names.csv", ',', {'Alcohol': CONTINUOUS_ATT, 'Malic acid': CONTINUOUS_ATT, 'Ash': CONTINUOUS_ATT, 'Alcalinity of ash': CONTINUOUS_ATT, 'Magnesium': CONTINUOUS_ATT, 'Total phenols': CONTINUOUS_ATT, 'Flavanoids': CONTINUOUS_ATT, 'Nonflavanoid phenols': CONTINUOUS_ATT, 'Proanthocyanins': CONTINUOUS_ATT, 'Color intensity': CONTINUOUS_ATT, 'Hue': CONTINUOUS_ATT, 'OD280/0D315 of diluted wines': CONTINUOUS_ATT, 'Proline': CONTINUOUS_ATT, 'Class': DISCRETE_ATT}, {'P': '', 'N':''})
 
-
 print("allAttributes:" + str(allAttributes))
 print("preditiveAttributes:" + str(preditiveAttributes))
 print("attributeTypes:" + str(attributesTypes))
@@ -421,40 +420,6 @@ for attribute in allAttributes:
 
 for attribute in preditiveAttributes:
   print("Ganho para " + attribute + ": " + str(gain(dataset, attribute)))
-
-
-"""
-# TESTES
-# Apenas testando a criacao
-copyPreditiveAttributes = copy.copy(preditiveAttributes)
-root_node = decisionTree(dataset, copyPreditiveAttributes)
-
-#Testando exibicao de arvore
-printTree(root_node)
-
-
-# Apenas um teste rapido
-for d in dataset[0:15]:
-  print("Esperado: " + str(d[-1]))
-  print("Resultado: " + str(classify(root_node, d[:-1])))
-
-def main():
-    forest = createForest(dataset, 10); # 10 arvores
-    
-    testSet = [dataset[i][:-1] for i in range(len(dataset[0:15]))]
-    for i, test in enumerate(testSet):
-      results = []
-      for tree in forest:
-        answer = classify(tree, test)
-        if answer != None:
-          results.append(answer)
-      
-      print(results)
-      print("Votação majoritária: " + str(most_common(results)))
-      print("deve ser: " + str(dataset[i][-1]))
-      
-main()
-"""
 
 ntrees_to_test = [10, 25, 50, 75, 100, 125]
 score_results = [eval(i) for i in ntrees_to_test]
