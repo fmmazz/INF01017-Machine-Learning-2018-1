@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Usage: python3 t2py datasetname
+# Usage: python3 t2.py datasetname
 #   where datasetname is part of {wine, cancer, diabetes, ionosphere}
 
 # Authors: Augusto Bennemann and Fabricio Mazzola
@@ -38,6 +38,10 @@ possibleClasses = {}
 def log(s):
   if DEBUG:
     print(s)
+
+def setDebug(value):
+  global DEBUG
+  DEBUG = value
 
 def printFloatPrecision5(l):
   return "  ".join("%.5f" % a for a in l)
@@ -404,10 +408,11 @@ class TrainOrTestSet:
       msg += "\tExemplo %d\n\t\tx: [%s]\n\t\ty: [%s]\n" % (i+1, printFloatPrecision5(instance["attributes"]), printFloatPrecision5(instance["expected"]))
     return msg
 
-def createNetwork(networkFilename, initialWeightsFilename, inputSize, alpha):
+def createNetwork(networkFilename, initialWeightsFilename, alpha):
   regularizationFactor = 0
   neuronsPerLayer = []
   initialWeights = []
+  inputSize = 0
 
   with open(networkFilename) as f:
     line = f.readline()
@@ -417,6 +422,8 @@ def createNetwork(networkFilename, initialWeightsFilename, inputSize, alpha):
       if cnt == 1:
         regularizationFactor = float(line)
       else:
+        if cnt == 2:
+          inputSize = int(line)
         neuronsPerLayer.append(int(line))
 
       line = f.readline()
