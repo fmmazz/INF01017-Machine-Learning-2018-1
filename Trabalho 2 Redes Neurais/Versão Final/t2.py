@@ -564,9 +564,7 @@ def runPredefinedDataset(datasetName):
     
     numberInputs = len(dataset[1]) - 1
     
-    #generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.1, 20, 700) 
-    generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.0, 20, 700) 
-    generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.25, 20, 700) 
+    generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.1, 20, 700) 
     #generateFoldsAndTest(numberInputs, [numberInputs, 6, 1], 0.05, 0.1, 20, 700) 
     #generateFoldsAndTest(numberInputs, [numberInputs, 8, 1], 0.05, 0.1, 20, 700) 
     #generateFoldsAndTest(numberInputs, [numberInputs, 4, 2, 1], 0.05, 0.1, 20, 700) 
