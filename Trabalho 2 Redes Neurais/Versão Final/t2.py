@@ -24,6 +24,7 @@ except ImportError:
 """
 
 DEBUG = False
+BACKPROPAGATIONCHECK = False
 KFOLDS = 10
 original_dataset = None
 preditiveAttributes = {}
@@ -42,6 +43,10 @@ def log(s):
 def setDebug(value):
   global DEBUG
   DEBUG = value
+
+def setBackPropagationCheck(value):
+  global BACKPROPAGATIONCHECK
+  BACKPROPAGATIONCHECK = value
 
 def printFloatPrecision5(l):
   return "  ".join("%.5f" % a for a in l)
@@ -143,7 +148,8 @@ class Network:
   layers = []
   
   def __init__(self, regularizationFactor, layersWeights, inputSize, alpha=0.0001):
-    print("Inicializando rede com a seguinte estrutura de neuronios por camadas: [%d %s]" % (inputSize, " ".join("%d" % len(a) for a in layersWeights)))
+    if not BACKPROPAGATIONCHECK:
+      print("Inicializando rede com a seguinte estrutura de neuronios por camadas: [%d %s]" % (inputSize, " ".join("%d" % len(a) for a in layersWeights)))
     
     self.regularizationFactor = regularizationFactor
     self.alpha = alpha
@@ -327,6 +333,15 @@ class Network:
     for i in range(len(self.layers)):
       log("\t\tGradientes finais para Theta%d (com regularizacao):" % (i+1))
       log(twoDimensionPrintFloatPrecision5(finalD[len(finalD)-1-i], "\t\t\t"))
+      if BACKPROPAGATIONCHECK:
+        for ti, theta in enumerate(finalD[len(finalD)-1-i]):
+          for vi, value in enumerate(theta):
+            print("%.5f" % value, end="")
+            if vi != len(theta)-1:
+              print(", ", end="")
+          if ti != len(finalD[len(finalD)-1-i])-1:
+            print("; ", end="")
+        print("")
 
     self.updateWeights(list(reversed(finalD)), J) 
     
@@ -549,7 +564,9 @@ def runPredefinedDataset(datasetName):
     
     numberInputs = len(dataset[1]) - 1
     
-    generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.1, 20, 700) 
+    #generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.1, 20, 700) 
+    generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.0, 20, 700) 
+    generateFoldsAndTest(numberInputs, [numberInputs, 4, 1], 0.05, 0.25, 20, 700) 
     #generateFoldsAndTest(numberInputs, [numberInputs, 6, 1], 0.05, 0.1, 20, 700) 
     #generateFoldsAndTest(numberInputs, [numberInputs, 8, 1], 0.05, 0.1, 20, 700) 
     #generateFoldsAndTest(numberInputs, [numberInputs, 4, 2, 1], 0.05, 0.1, 20, 700) 
