@@ -1,0 +1,1236 @@
+attribute_index = -1
+{0.0: 59.0, 0.5: 71.0, 1.0: 48.0}
+{0.0: 0, 0.5: 1, 1.0: 2}
+KFOLDS = 10 	
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.748723 
+25 ... J = 0.570469 
+50 ... J = 0.562347 
+75 ... J = 0.558791 
+100 ... J = 0.554203 
+125 ... J = 0.547732 
+150 ... J = 0.538522 
+175 ... J = 0.525618 
+200 ... J = 0.508013 
+225 ... J = 0.484979 
+250 ... J = 0.456416 
+275 ... J = 0.423135 
+300 ... J = 0.386766 
+325 ... J = 0.349401 
+350 ... J = 0.313027 
+375 ... J = 0.279132 
+400 ... J = 0.248538 
+425 ... J = 0.221545 
+450 ... J = 0.198061 
+475 ... J = 0.177812 
+500 ... J = 0.160404 
+525 ... J = 0.145454 
+550 ... J = 0.132595 
+575 ... J = 0.121512 
+600 ... J = 0.111915 
+625 ... J = 0.103584 
+650 ... J = 0.096313 
+675 ... J = 0.089936 
+700 ... J = 0.084339 
+725 ... J = 0.079379 
+750 ... J = 0.074993 
+775 ... J = 0.071077 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.19167], [0.12463], [0.09963], [0.45734], [0.68104], [0.39561], [0.86242], [0.87625], [0.85238]]
+results[i][0] = 0.191670   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.191670
+VP++
+results[i][0] = 0.124630   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.124630
+VP++
+results[i][0] = 0.099630   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.099630
+VP++
+results[i][0] = 0.457340   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.457340
+VNn++
+results[i][0] = 0.681040   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.681040
+VNn++
+results[i][0] = 0.395610   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.395610
+VNn++
+results[i][0] = 0.862420   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.862420
+VNn++
+results[i][0] = 0.876250   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.876250
+VNn++
+results[i][0] = 0.852380   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.852380
+VNn++
+vp: 3  vn: 6 fp: 0 fn: 0
+results[i][0] = 0.191670   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.191670
+VNn++
+results[i][0] = 0.124630   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.124630
+VNn++
+results[i][0] = 0.099630   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.099630
+VNn++
+results[i][0] = 0.457340   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.457340
+VP++
+results[i][0] = 0.681040   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.681040
+FN++
+results[i][0] = 0.395610   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.395610
+VP++
+results[i][0] = 0.862420   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.862420
+VNn++
+results[i][0] = 0.876250   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.876250
+VNn++
+results[i][0] = 0.852380   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.852380
+VNn++
+vp: 2  vn: 6 fp: 0 fn: 1
+results[i][0] = 0.191670   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.191670
+VNn++
+results[i][0] = 0.124630   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.124630
+VNn++
+results[i][0] = 0.099630   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.099630
+VNn++
+results[i][0] = 0.457340   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.457340
+VNn++
+results[i][0] = 0.681040   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.681040
+FP++
+results[i][0] = 0.395610   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.395610
+VNn++
+results[i][0] = 0.862420   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.862420
+VP++
+results[i][0] = 0.876250   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.876250
+VP++
+results[i][0] = 0.852380   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.852380
+VP++
+vp: 3  vn: 5 fp: 1 fn: 0
+FOLD #1 ->  acc:0.925926  f1:0.885714
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.767655 
+25 ... J = 0.557865 
+50 ... J = 0.548164 
+75 ... J = 0.544176 
+100 ... J = 0.539414 
+125 ... J = 0.533156 
+150 ... J = 0.524739 
+175 ... J = 0.513379 
+200 ... J = 0.498222 
+225 ... J = 0.478471 
+250 ... J = 0.453689 
+275 ... J = 0.424128 
+300 ... J = 0.390838 
+325 ... J = 0.355533 
+350 ... J = 0.320164 
+375 ... J = 0.286363 
+400 ... J = 0.255267 
+425 ... J = 0.227415 
+450 ... J = 0.202937 
+475 ... J = 0.181666 
+500 ... J = 0.163296 
+525 ... J = 0.147480 
+550 ... J = 0.133874 
+575 ... J = 0.122134 
+600 ... J = 0.111982 
+625 ... J = 0.103185 
+650 ... J = 0.095520 
+675 ... J = 0.088820 
+700 ... J = 0.082947 
+725 ... J = 0.077767 
+750 ... J = 0.073184 
+775 ... J = 0.069114 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.17357], [0.19469], [0.1543], [0.77976], [0.584], [0.57225], [0.82058], [0.90568], [0.88302]]
+results[i][0] = 0.173570   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.173570
+VP++
+results[i][0] = 0.194690   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.194690
+VP++
+results[i][0] = 0.154300   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.154300
+VP++
+results[i][0] = 0.779760   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.779760
+VNn++
+results[i][0] = 0.584000   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.584000
+VNn++
+results[i][0] = 0.572250   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.572250
+VNn++
+results[i][0] = 0.820580   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.820580
+VNn++
+results[i][0] = 0.905680   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.905680
+VNn++
+results[i][0] = 0.883020   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.883020
+VNn++
+vp: 3  vn: 6 fp: 0 fn: 0
+results[i][0] = 0.173570   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.173570
+VNn++
+results[i][0] = 0.194690   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.194690
+VNn++
+results[i][0] = 0.154300   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.154300
+VNn++
+results[i][0] = 0.779760   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.779760
+FN++
+results[i][0] = 0.584000   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.584000
+VP++
+results[i][0] = 0.572250   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.572250
+VP++
+results[i][0] = 0.820580   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.820580
+VNn++
+results[i][0] = 0.905680   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.905680
+VNn++
+results[i][0] = 0.883020   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.883020
+VNn++
+vp: 2  vn: 6 fp: 0 fn: 1
+results[i][0] = 0.173570   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.173570
+VNn++
+results[i][0] = 0.194690   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.194690
+VNn++
+results[i][0] = 0.154300   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.154300
+VNn++
+results[i][0] = 0.779760   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.779760
+FP++
+results[i][0] = 0.584000   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.584000
+VNn++
+results[i][0] = 0.572250   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.572250
+VNn++
+results[i][0] = 0.820580   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.820580
+VP++
+results[i][0] = 0.905680   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.905680
+VP++
+results[i][0] = 0.883020   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.883020
+VP++
+vp: 3  vn: 5 fp: 1 fn: 0
+FOLD #2 ->  acc:0.925926  f1:0.885714
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.728546 
+25 ... J = 0.566532 
+50 ... J = 0.555718 
+75 ... J = 0.550294 
+100 ... J = 0.544538 
+125 ... J = 0.537752 
+150 ... J = 0.529363 
+175 ... J = 0.518757 
+200 ... J = 0.505192 
+225 ... J = 0.487988 
+250 ... J = 0.466601 
+275 ... J = 0.440880 
+300 ... J = 0.411312 
+325 ... J = 0.378964 
+350 ... J = 0.345354 
+375 ... J = 0.312029 
+400 ... J = 0.280296 
+425 ... J = 0.251029 
+450 ... J = 0.224657 
+475 ... J = 0.201272 
+500 ... J = 0.180767 
+525 ... J = 0.162895 
+550 ... J = 0.147364 
+575 ... J = 0.133886 
+600 ... J = 0.122168 
+625 ... J = 0.111960 
+650 ... J = 0.103041 
+675 ... J = 0.095234 
+700 ... J = 0.088372 
+725 ... J = 0.082317 
+750 ... J = 0.076957 
+775 ... J = 0.072194 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.16752], [0.1919], [0.41585], [0.50714], [0.33504], [0.79518], [0.82571], [0.91346], [0.87328]]
+results[i][0] = 0.167520   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.167520
+VP++
+results[i][0] = 0.191900   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.191900
+VP++
+results[i][0] = 0.415850   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.415850
+FN++
+results[i][0] = 0.507140   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.507140
+VNn++
+results[i][0] = 0.335040   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.335040
+VNn++
+results[i][0] = 0.795180   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.795180
+VNn++
+results[i][0] = 0.825710   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.825710
+VNn++
+results[i][0] = 0.913460   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.913460
+VNn++
+results[i][0] = 0.873280   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.873280
+VNn++
+vp: 2  vn: 6 fp: 0 fn: 1
+results[i][0] = 0.167520   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.167520
+VNn++
+results[i][0] = 0.191900   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.191900
+VNn++
+results[i][0] = 0.415850   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.415850
+FP++
+results[i][0] = 0.507140   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.507140
+VP++
+results[i][0] = 0.335040   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.335040
+VP++
+results[i][0] = 0.795180   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.795180
+FN++
+results[i][0] = 0.825710   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.825710
+VNn++
+results[i][0] = 0.913460   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.913460
+VNn++
+results[i][0] = 0.873280   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.873280
+VNn++
+vp: 2  vn: 5 fp: 1 fn: 1
+results[i][0] = 0.167520   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.167520
+VNn++
+results[i][0] = 0.191900   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.191900
+VNn++
+results[i][0] = 0.415850   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.415850
+VNn++
+results[i][0] = 0.507140   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.507140
+VNn++
+results[i][0] = 0.335040   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.335040
+VNn++
+results[i][0] = 0.795180   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.795180
+FP++
+results[i][0] = 0.825710   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.825710
+VP++
+results[i][0] = 0.913460   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.913460
+VP++
+results[i][0] = 0.873280   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.873280
+VP++
+vp: 3  vn: 5 fp: 1 fn: 0
+FOLD #3 ->  acc:0.851852  f1:0.774603
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.670232 
+25 ... J = 0.561926 
+50 ... J = 0.554447 
+75 ... J = 0.550589 
+100 ... J = 0.545348 
+125 ... J = 0.537649 
+150 ... J = 0.526362 
+175 ... J = 0.510309 
+200 ... J = 0.488412 
+225 ... J = 0.460180 
+250 ... J = 0.426209 
+275 ... J = 0.388239 
+300 ... J = 0.348749 
+325 ... J = 0.310200 
+350 ... J = 0.274397 
+375 ... J = 0.242339 
+400 ... J = 0.214332 
+425 ... J = 0.190205 
+450 ... J = 0.169591 
+475 ... J = 0.152033 
+500 ... J = 0.137081 
+525 ... J = 0.124317 
+550 ... J = 0.113381 
+575 ... J = 0.103984 
+600 ... J = 0.095861 
+625 ... J = 0.088820 
+650 ... J = 0.082675 
+675 ... J = 0.077291 
+700 ... J = 0.072549 
+725 ... J = 0.068364 
+750 ... J = 0.064656 
+775 ... J = 0.061354 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.21649], [0.15322], [0.2014], [0.19608], [0.3643], [0.70568], [0.91563], [0.88908], [0.88048]]
+results[i][0] = 0.216490   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.216490
+VP++
+results[i][0] = 0.153220   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.153220
+VP++
+results[i][0] = 0.201400   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.201400
+VP++
+results[i][0] = 0.196080   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.196080
+FP++
+results[i][0] = 0.364300   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.364300
+VNn++
+results[i][0] = 0.705680   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.705680
+VNn++
+results[i][0] = 0.915630   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.915630
+VNn++
+results[i][0] = 0.889080   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.889080
+VNn++
+results[i][0] = 0.880480   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.880480
+VNn++
+vp: 3  vn: 5 fp: 1 fn: 0
+results[i][0] = 0.216490   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.216490
+VNn++
+results[i][0] = 0.153220   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.153220
+VNn++
+results[i][0] = 0.201400   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.201400
+VNn++
+results[i][0] = 0.196080   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.196080
+FN++
+results[i][0] = 0.364300   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.364300
+VP++
+results[i][0] = 0.705680   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.705680
+FN++
+results[i][0] = 0.915630   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.915630
+VNn++
+results[i][0] = 0.889080   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.889080
+VNn++
+results[i][0] = 0.880480   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.880480
+VNn++
+vp: 1  vn: 6 fp: 0 fn: 2
+results[i][0] = 0.216490   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.216490
+VNn++
+results[i][0] = 0.153220   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.153220
+VNn++
+results[i][0] = 0.201400   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.201400
+VNn++
+results[i][0] = 0.196080   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.196080
+VNn++
+results[i][0] = 0.364300   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.364300
+VNn++
+results[i][0] = 0.705680   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.705680
+FP++
+results[i][0] = 0.915630   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.915630
+VP++
+results[i][0] = 0.889080   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.889080
+VP++
+results[i][0] = 0.880480   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.880480
+VP++
+vp: 3  vn: 5 fp: 1 fn: 0
+FOLD #4 ->  acc:0.851852  f1:0.738095
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.787941 
+25 ... J = 0.566109 
+50 ... J = 0.551509 
+75 ... J = 0.547075 
+100 ... J = 0.542127 
+125 ... J = 0.535255 
+150 ... J = 0.525550 
+175 ... J = 0.511910 
+200 ... J = 0.493280 
+225 ... J = 0.468868 
+250 ... J = 0.438660 
+275 ... J = 0.403662 
+300 ... J = 0.365831 
+325 ... J = 0.327505 
+350 ... J = 0.290780 
+375 ... J = 0.257101 
+400 ... J = 0.227164 
+425 ... J = 0.201101 
+450 ... J = 0.178696 
+475 ... J = 0.159570 
+500 ... J = 0.143282 
+525 ... J = 0.129414 
+550 ... J = 0.117557 
+575 ... J = 0.107407 
+600 ... J = 0.098672 
+625 ... J = 0.091129 
+650 ... J = 0.084567 
+675 ... J = 0.078848 
+700 ... J = 0.073840 
+725 ... J = 0.069425 
+750 ... J = 0.065531 
+775 ... J = 0.062078 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.17235], [0.11657], [0.17815], [0.66162], [0.44496], [0.49601], [0.92372], [0.68661], [0.94247]]
+results[i][0] = 0.172350   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.172350
+VP++
+results[i][0] = 0.116570   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.116570
+VP++
+results[i][0] = 0.178150   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.178150
+VP++
+results[i][0] = 0.661620   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.661620
+VNn++
+results[i][0] = 0.444960   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.444960
+VNn++
+results[i][0] = 0.496010   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.496010
+VNn++
+results[i][0] = 0.923720   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.923720
+VNn++
+results[i][0] = 0.686610   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.686610
+VNn++
+results[i][0] = 0.942470   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.942470
+VNn++
+vp: 3  vn: 6 fp: 0 fn: 0
+results[i][0] = 0.172350   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.172350
+VNn++
+results[i][0] = 0.116570   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.116570
+VNn++
+results[i][0] = 0.178150   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.178150
+VNn++
+results[i][0] = 0.661620   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.661620
+VP++
+results[i][0] = 0.444960   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.444960
+VP++
+results[i][0] = 0.496010   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.496010
+VP++
+results[i][0] = 0.923720   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.923720
+VNn++
+results[i][0] = 0.686610   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.686610
+VNn++
+results[i][0] = 0.942470   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.942470
+VNn++
+vp: 3  vn: 6 fp: 0 fn: 0
+results[i][0] = 0.172350   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.172350
+VNn++
+results[i][0] = 0.116570   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.116570
+VNn++
+results[i][0] = 0.178150   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.178150
+VNn++
+results[i][0] = 0.661620   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.661620
+VNn++
+results[i][0] = 0.444960   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.444960
+VNn++
+results[i][0] = 0.496010   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.496010
+VNn++
+results[i][0] = 0.923720   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.923720
+VP++
+results[i][0] = 0.686610   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.686610
+VP++
+results[i][0] = 0.942470   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.942470
+VP++
+vp: 3  vn: 6 fp: 0 fn: 0
+FOLD #5 ->  acc:1.000000  f1:1.000000
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.623565 
+25 ... J = 0.565176 
+50 ... J = 0.557987 
+75 ... J = 0.554064 
+100 ... J = 0.550312 
+125 ... J = 0.546228 
+150 ... J = 0.541354 
+175 ... J = 0.535255 
+200 ... J = 0.527328 
+225 ... J = 0.516827 
+250 ... J = 0.502940 
+275 ... J = 0.484752 
+300 ... J = 0.461607 
+325 ... J = 0.433355 
+350 ... J = 0.400642 
+375 ... J = 0.365038 
+400 ... J = 0.328546 
+425 ... J = 0.293097 
+450 ... J = 0.260132 
+475 ... J = 0.230470 
+500 ... J = 0.204359 
+525 ... J = 0.181714 
+550 ... J = 0.162237 
+575 ... J = 0.145535 
+600 ... J = 0.131248 
+625 ... J = 0.118986 
+650 ... J = 0.108454 
+675 ... J = 0.099367 
+700 ... J = 0.091490 
+725 ... J = 0.084654 
+750 ... J = 0.078675 
+775 ... J = 0.073431 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.1831], [0.30856], [0.14264], [0.43743], [0.28421], [0.42394], [0.90825], [0.80356], [0.88045]]
+results[i][0] = 0.183100   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.183100
+VP++
+results[i][0] = 0.308560   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.308560
+VP++
+results[i][0] = 0.142640   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.142640
+VP++
+results[i][0] = 0.437430   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.437430
+VNn++
+results[i][0] = 0.284210   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.284210
+FP++
+results[i][0] = 0.423940   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.423940
+VNn++
+results[i][0] = 0.908250   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.908250
+VNn++
+results[i][0] = 0.803560   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.803560
+VNn++
+results[i][0] = 0.880450   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.880450
+VNn++
+vp: 3  vn: 5 fp: 1 fn: 0
+results[i][0] = 0.183100   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.183100
+VNn++
+results[i][0] = 0.308560   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.308560
+VNn++
+results[i][0] = 0.142640   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.142640
+VNn++
+results[i][0] = 0.437430   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.437430
+VP++
+results[i][0] = 0.284210   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.284210
+FN++
+results[i][0] = 0.423940   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.423940
+VP++
+results[i][0] = 0.908250   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.908250
+VNn++
+results[i][0] = 0.803560   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.803560
+VNn++
+results[i][0] = 0.880450   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.880450
+VNn++
+vp: 2  vn: 6 fp: 0 fn: 1
+results[i][0] = 0.183100   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.183100
+VNn++
+results[i][0] = 0.308560   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.308560
+VNn++
+results[i][0] = 0.142640   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.142640
+VNn++
+results[i][0] = 0.437430   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.437430
+VNn++
+results[i][0] = 0.284210   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.284210
+VNn++
+results[i][0] = 0.423940   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.423940
+VNn++
+results[i][0] = 0.908250   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.908250
+VP++
+results[i][0] = 0.803560   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.803560
+VP++
+results[i][0] = 0.880450   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.880450
+VP++
+vp: 3  vn: 6 fp: 0 fn: 0
+FOLD #6 ->  acc:0.925926  f1:0.885714
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.900737 
+25 ... J = 0.554290 
+50 ... J = 0.529957 
+75 ... J = 0.519732 
+100 ... J = 0.508212 
+125 ... J = 0.493772 
+150 ... J = 0.475684 
+175 ... J = 0.453564 
+200 ... J = 0.427389 
+225 ... J = 0.397705 
+250 ... J = 0.365615 
+275 ... J = 0.332540 
+300 ... J = 0.299957 
+325 ... J = 0.269083 
+350 ... J = 0.240722 
+375 ... J = 0.215262 
+400 ... J = 0.192772 
+425 ... J = 0.173116 
+450 ... J = 0.156046 
+475 ... J = 0.141241 
+500 ... J = 0.128424 
+525 ... J = 0.117298 
+550 ... J = 0.107630 
+575 ... J = 0.099202 
+600 ... J = 0.091830 
+625 ... J = 0.085351 
+650 ... J = 0.079649 
+675 ... J = 0.074594 
+700 ... J = 0.070122 
+725 ... J = 0.066129 
+750 ... J = 0.062567 
+775 ... J = 0.059379 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.22544], [0.12727], [0.26357], [0.22498], [0.27742], [0.27777], [0.82942], [0.83136], [0.85738]]
+results[i][0] = 0.225440   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.225440
+VP++
+results[i][0] = 0.127270   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.127270
+VP++
+results[i][0] = 0.263570   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.263570
+VP++
+results[i][0] = 0.224980   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.224980
+FP++
+results[i][0] = 0.277420   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.277420
+FP++
+results[i][0] = 0.277770   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.277770
+FP++
+results[i][0] = 0.829420   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.829420
+VNn++
+results[i][0] = 0.831360   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.831360
+VNn++
+results[i][0] = 0.857380   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.857380
+VNn++
+vp: 3  vn: 3 fp: 3 fn: 0
+results[i][0] = 0.225440   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.225440
+VNn++
+results[i][0] = 0.127270   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.127270
+VNn++
+results[i][0] = 0.263570   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.263570
+VNn++
+results[i][0] = 0.224980   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.224980
+FN++
+results[i][0] = 0.277420   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.277420
+FN++
+results[i][0] = 0.277770   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.277770
+FN++
+results[i][0] = 0.829420   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.829420
+VNn++
+results[i][0] = 0.831360   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.831360
+VNn++
+results[i][0] = 0.857380   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.857380
+VNn++
+vp: 0  vn: 6 fp: 0 fn: 3
+results[i][0] = 0.225440   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.225440
+VNn++
+results[i][0] = 0.127270   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.127270
+VNn++
+results[i][0] = 0.263570   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.263570
+VNn++
+results[i][0] = 0.224980   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.224980
+VNn++
+results[i][0] = 0.277420   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.277420
+VNn++
+results[i][0] = 0.277770   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.277770
+VNn++
+results[i][0] = 0.829420   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.829420
+VP++
+results[i][0] = 0.831360   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.831360
+VP++
+results[i][0] = 0.857380   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.857380
+VP++
+vp: 3  vn: 6 fp: 0 fn: 0
+FOLD #7 ->  acc:0.777778  f1:0.555556
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.551127 
+25 ... J = 0.544865 
+50 ... J = 0.540666 
+75 ... J = 0.534845 
+100 ... J = 0.526413 
+125 ... J = 0.514348 
+150 ... J = 0.497597 
+175 ... J = 0.475298 
+200 ... J = 0.447256 
+225 ... J = 0.414228 
+250 ... J = 0.377942 
+275 ... J = 0.340647 
+300 ... J = 0.304408 
+325 ... J = 0.270720 
+350 ... J = 0.240417 
+375 ... J = 0.213726 
+400 ... J = 0.190543 
+425 ... J = 0.170563 
+450 ... J = 0.153396 
+475 ... J = 0.138642 
+500 ... J = 0.125937 
+525 ... J = 0.114973 
+550 ... J = 0.105472 
+575 ... J = 0.097216 
+600 ... J = 0.089990 
+625 ... J = 0.083653 
+650 ... J = 0.078070 
+675 ... J = 0.073130 
+700 ... J = 0.068739 
+725 ... J = 0.064816 
+750 ... J = 0.061301 
+775 ... J = 0.058148 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.12925], [0.17473], [0.14006], [0.33002], [0.19031], [0.8823], [0.86475], [0.89787], [0.89941]]
+results[i][0] = 0.129250   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.129250
+VP++
+results[i][0] = 0.174730   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.174730
+VP++
+results[i][0] = 0.140060   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.140060
+VP++
+results[i][0] = 0.330020   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.330020
+FP++
+results[i][0] = 0.190310   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.190310
+FP++
+results[i][0] = 0.882300   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.882300
+VNn++
+results[i][0] = 0.864750   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.864750
+VNn++
+results[i][0] = 0.897870   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.897870
+VNn++
+results[i][0] = 0.899410   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.899410
+VNn++
+vp: 3  vn: 4 fp: 2 fn: 0
+results[i][0] = 0.129250   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.129250
+VNn++
+results[i][0] = 0.174730   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.174730
+VNn++
+results[i][0] = 0.140060   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.140060
+VNn++
+results[i][0] = 0.330020   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.330020
+FN++
+results[i][0] = 0.190310   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.190310
+FN++
+results[i][0] = 0.882300   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.882300
+FN++
+results[i][0] = 0.864750   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.864750
+VNn++
+results[i][0] = 0.897870   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.897870
+VNn++
+results[i][0] = 0.899410   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.899410
+VNn++
+vp: 0  vn: 6 fp: 0 fn: 3
+results[i][0] = 0.129250   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.129250
+VNn++
+results[i][0] = 0.174730   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.174730
+VNn++
+results[i][0] = 0.140060   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.140060
+VNn++
+results[i][0] = 0.330020   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.330020
+VNn++
+results[i][0] = 0.190310   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.190310
+VNn++
+results[i][0] = 0.882300   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.882300
+FP++
+results[i][0] = 0.864750   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.864750
+VP++
+results[i][0] = 0.897870   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.897870
+VP++
+results[i][0] = 0.899410   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.899410
+VP++
+vp: 3  vn: 5 fp: 1 fn: 0
+FOLD #8 ->  acc:0.777778  f1:0.535714
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.657568 
+25 ... J = 0.562926 
+50 ... J = 0.554969 
+75 ... J = 0.551005 
+100 ... J = 0.546798 
+125 ... J = 0.541680 
+150 ... J = 0.535118 
+175 ... J = 0.526430 
+200 ... J = 0.514850 
+225 ... J = 0.499490 
+250 ... J = 0.479553 
+275 ... J = 0.454571 
+300 ... J = 0.424755 
+325 ... J = 0.391104 
+350 ... J = 0.355347 
+375 ... J = 0.319434 
+400 ... J = 0.285085 
+425 ... J = 0.253474 
+450 ... J = 0.225196 
+475 ... J = 0.200392 
+500 ... J = 0.178887 
+525 ... J = 0.160368 
+550 ... J = 0.144471 
+575 ... J = 0.130826 
+600 ... J = 0.119099 
+625 ... J = 0.108989 
+650 ... J = 0.100240 
+675 ... J = 0.092642 
+700 ... J = 0.086016 
+725 ... J = 0.080213 
+750 ... J = 0.075112 
+775 ... J = 0.070605 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.20347], [0.20261], [0.13799], [0.43099], [0.4265], [0.50316], [0.91675], [0.90488], [0.92022]]
+results[i][0] = 0.203470   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.203470
+VP++
+results[i][0] = 0.202610   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.202610
+VP++
+results[i][0] = 0.137990   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.137990
+VP++
+results[i][0] = 0.430990   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.430990
+VNn++
+results[i][0] = 0.426500   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.426500
+VNn++
+results[i][0] = 0.503160   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.503160
+VNn++
+results[i][0] = 0.916750   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.916750
+VNn++
+results[i][0] = 0.904880   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.904880
+VNn++
+results[i][0] = 0.920220   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.920220
+VNn++
+vp: 3  vn: 6 fp: 0 fn: 0
+results[i][0] = 0.203470   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.203470
+VNn++
+results[i][0] = 0.202610   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.202610
+VNn++
+results[i][0] = 0.137990   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.137990
+VNn++
+results[i][0] = 0.430990   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.430990
+VP++
+results[i][0] = 0.426500   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.426500
+VP++
+results[i][0] = 0.503160   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.503160
+VP++
+results[i][0] = 0.916750   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.916750
+VNn++
+results[i][0] = 0.904880   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.904880
+VNn++
+results[i][0] = 0.920220   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.920220
+VNn++
+vp: 3  vn: 6 fp: 0 fn: 0
+results[i][0] = 0.203470   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.203470
+VNn++
+results[i][0] = 0.202610   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.202610
+VNn++
+results[i][0] = 0.137990   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.137990
+VNn++
+results[i][0] = 0.430990   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.430990
+VNn++
+results[i][0] = 0.426500   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.426500
+VNn++
+results[i][0] = 0.503160   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.503160
+VNn++
+results[i][0] = 0.916750   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.916750
+VP++
+results[i][0] = 0.904880   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.904880
+VP++
+results[i][0] = 0.920220   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.920220
+VP++
+vp: 3  vn: 6 fp: 0 fn: 0
+FOLD #9 ->  acc:1.000000  f1:1.000000
+Inicializando rede com a seguinte estrutura de neuronios por camadas: [13 5 1]
+RODANDO 800 ITERAÇÕES:
+0 ... J = 0.571036 
+25 ... J = 0.541319 
+50 ... J = 0.534913 
+75 ... J = 0.528684 
+100 ... J = 0.520422 
+125 ... J = 0.509260 
+150 ... J = 0.494460 
+175 ... J = 0.475394 
+200 ... J = 0.451865 
+225 ... J = 0.424296 
+250 ... J = 0.393754 
+275 ... J = 0.361716 
+300 ... J = 0.329727 
+325 ... J = 0.299080 
+350 ... J = 0.270628 
+375 ... J = 0.244840 
+400 ... J = 0.221819 
+425 ... J = 0.201504 
+450 ... J = 0.183670 
+475 ... J = 0.168052 
+500 ... J = 0.154399 
+525 ... J = 0.142451 
+550 ... J = 0.131967 
+575 ... J = 0.122755 
+600 ... J = 0.114637 
+625 ... J = 0.107452 
+650 ... J = 0.101081 
+675 ... J = 0.095410 
+700 ... J = 0.090341 
+725 ... J = 0.085808 
+750 ... J = 0.081731 
+775 ... J = 0.078070 
+EXPECTED:
+[[0.0], [0.0], [0.0], [0.5], [0.5], [0.5], [1.0], [1.0], [1.0]]
+FOLD RESULTS
+[[0.26437], [0.24969], [0.19799], [0.26506], [0.4117], [0.18538], [0.78129], [0.84282], [0.94088]]
+results[i][0] = 0.264370   j*rg size = 0.000000
+j=0 i=0 expected=0.000000 result=0.264370
+VP++
+results[i][0] = 0.249690   j*rg size = 0.000000
+j=0 i=1 expected=0.000000 result=0.249690
+VP++
+results[i][0] = 0.197990   j*rg size = 0.000000
+j=0 i=2 expected=0.000000 result=0.197990
+VP++
+results[i][0] = 0.265060   j*rg size = 0.000000
+j=0 i=3 expected=0.500000 result=0.265060
+FP++
+results[i][0] = 0.411700   j*rg size = 0.000000
+j=0 i=4 expected=0.500000 result=0.411700
+VNn++
+results[i][0] = 0.185380   j*rg size = 0.000000
+j=0 i=5 expected=0.500000 result=0.185380
+FP++
+results[i][0] = 0.781290   j*rg size = 0.000000
+j=0 i=6 expected=1.000000 result=0.781290
+VNn++
+results[i][0] = 0.842820   j*rg size = 0.000000
+j=0 i=7 expected=1.000000 result=0.842820
+VNn++
+results[i][0] = 0.940880   j*rg size = 0.000000
+j=0 i=8 expected=1.000000 result=0.940880
+VNn++
+vp: 3  vn: 4 fp: 2 fn: 0
+results[i][0] = 0.264370   j*rg size = 0.333333
+j=1 i=0 expected=0.000000 result=0.264370
+VNn++
+results[i][0] = 0.249690   j*rg size = 0.333333
+j=1 i=1 expected=0.000000 result=0.249690
+VNn++
+results[i][0] = 0.197990   j*rg size = 0.333333
+j=1 i=2 expected=0.000000 result=0.197990
+VNn++
+results[i][0] = 0.265060   j*rg size = 0.333333
+j=1 i=3 expected=0.500000 result=0.265060
+FN++
+results[i][0] = 0.411700   j*rg size = 0.333333
+j=1 i=4 expected=0.500000 result=0.411700
+VP++
+results[i][0] = 0.185380   j*rg size = 0.333333
+j=1 i=5 expected=0.500000 result=0.185380
+FN++
+results[i][0] = 0.781290   j*rg size = 0.333333
+j=1 i=6 expected=1.000000 result=0.781290
+VNn++
+results[i][0] = 0.842820   j*rg size = 0.333333
+j=1 i=7 expected=1.000000 result=0.842820
+VNn++
+results[i][0] = 0.940880   j*rg size = 0.333333
+j=1 i=8 expected=1.000000 result=0.940880
+VNn++
+vp: 1  vn: 6 fp: 0 fn: 2
+results[i][0] = 0.264370   j*rg size = 0.666667
+j=2 i=0 expected=0.000000 result=0.264370
+VNn++
+results[i][0] = 0.249690   j*rg size = 0.666667
+j=2 i=1 expected=0.000000 result=0.249690
+VNn++
+results[i][0] = 0.197990   j*rg size = 0.666667
+j=2 i=2 expected=0.000000 result=0.197990
+VNn++
+results[i][0] = 0.265060   j*rg size = 0.666667
+j=2 i=3 expected=0.500000 result=0.265060
+VNn++
+results[i][0] = 0.411700   j*rg size = 0.666667
+j=2 i=4 expected=0.500000 result=0.411700
+VNn++
+results[i][0] = 0.185380   j*rg size = 0.666667
+j=2 i=5 expected=0.500000 result=0.185380
+VNn++
+results[i][0] = 0.781290   j*rg size = 0.666667
+j=2 i=6 expected=1.000000 result=0.781290
+VP++
+results[i][0] = 0.842820   j*rg size = 0.666667
+j=2 i=7 expected=1.000000 result=0.842820
+VP++
+results[i][0] = 0.940880   j*rg size = 0.666667
+j=2 i=8 expected=1.000000 result=0.940880
+VP++
+vp: 3  vn: 6 fp: 0 fn: 0
+FOLD #10 ->  acc:0.851852  f1:0.750000
+Acurácia   -> 	Média: 0.89	Desvio Padrão: 0.08
+Escore F-1 -> 	Média: 0.80	Desvio Padrão: 0.15
